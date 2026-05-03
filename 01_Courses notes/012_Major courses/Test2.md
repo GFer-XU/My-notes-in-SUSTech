@@ -2,7 +2,7 @@ Here is the highly structured learning note based on the provided chapter on the
 
 ## 1. Chapter Global Mind Map
 
-```
+```mermaid
 graph TD
     A[Hydrosphere and Water Chemistry] --> B[Water Properties & Structure]
     A --> C[Life & Physics in Water]

@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "366524410177dd10",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e9d8e3b83c0cc0d4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,9 +198,9 @@
   },
   "active": "b034a0b31d93caa4",
   "lastOpenFiles": [
+    "01_Courses notes/011_General courses/Linear Algebra/Test.md",
     "01_Courses notes/012_Major courses/Test2.md",
     "01_Courses notes/013_Minor courses/Test3.md",
-    "01_Courses notes/011_General courses/Linear Algebra/Test.md",
     "01_Courses notes/011_General courses/Linear Algebra",
     "Linear algebra/Text.md",
     "01_Courses notes/013_Minor courses",

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "01_Courses notes/012_Major courses/Test2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2e6f33343055c10a",

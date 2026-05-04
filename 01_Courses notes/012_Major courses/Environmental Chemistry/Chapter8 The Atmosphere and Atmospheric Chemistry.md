@@ -42,7 +42,8 @@ graph LR
 
 **1. Photon Energy Formula** $$E = h\nu = \frac{hc}{\lambda}$$ _Parameters:_ $E$ is the energy of the photon, $h$ is Planck's constant, $\nu$ is the frequency of light, $c$ is the speed of light, and $\lambda$ is the wavelength. _Significance:_ Determines the threshold energy available to break chemical bonds. Only high-energy (short-wavelength, UV) photons have sufficient energy to drive critical atmospheric photochemical reactions.
 
-**2. Stratospheric Ozone Formation and UV Filtration $$O_2 + h\nu \ (\lambda < 240 \text{ nm}) \rightarrow O^* + O$$ $$O_2 + O^* + M \rightarrow O_3 + M$$ $$O_3 + h\nu \ (240 \text{ nm} < \lambda < 320 \text{ nm}) \rightarrow O_2 + O^*$$ _Parameters_: $O^*$ denotes an energetically excited oxygen atom. $M$ is a "third body" (usually $N_2$ or $O_2$). Significance: This cycle represents the creation of the ozone layer and its critical biological function: absorbing highly damaging, mid-range ultraviolet radiation before it reaches the Earth's surface.
+**2. Stratospheric Ozone Formation and UV Filtration** $$O_2 + h\nu \ (\lambda < 240 \text{ nm}) \rightarrow O^* + O$$ $$O_2 + O^* + M \rightarrow O_3 + M$$ $$O_3 + h\nu \ (240 \text{ nm} < \lambda < 320 \text{ nm}) \rightarrow O_2 + O^*$$
+ _Parameters_: $O^*$ denotes an energetically excited oxygen atom. $M$ is a "third body" (usually $N_2$ or $O_2$). Significance: This cycle represents the creation of the ozone layer and its critical biological function: absorbing highly damaging, mid-range ultraviolet radiation before it reaches the Earth's surface.
 
 **3. Acid Base Reactions (Acid Rain Formation)** $$SO_2 + H_2O \rightleftharpoons H^+ + HSO_3^-$$ $$Ca(OH)_2(s) + H_2SO_4(aq) \rightleftharpoons CaSO_4(s) + 2H_2O$$ _Parameters:_ $SO_2$ is the primary acid-forming gaseous pollutant, reacting to form sulfurous and eventually sulfuric acid ($H_2SO_4$). $Ca(OH)_2$ represents natural basic rock material. _Significance:_ Demonstrates the mechanism by which anthropogenic pollutant gases create acid rain, and how environmental bases (like limestone/calcium minerals or atmospheric ammonia) attempt to neutralize it.
 
@@ -61,8 +62,8 @@ graph LR
 
 **Scenario:** The hydroxyl radical is the atmosphere's primary chemical "detergent," initiating the breakdown of most trace pollutants. How is it formed in the unpolluted troposphere?
 
-- **Step 1: Ozone Photolysis.** Tropospheric ozone is struck by UV light, breaking into an oxygen molecule and an excited oxygen atom ($O^_$). $$O_3 + h\nu (\lambda < 315 \text{ nm}) \rightarrow O^_ + O_2$$
-- **Step 2: Water Reaction.** The highly energized $O^_$ atom is extremely unstable. It immediately reacts with ambient water vapor in the troposphere. $$O^_ + H_2O \rightarrow 2HO\cdot$$
+- **Step 1: Ozone Photolysis.** Tropospheric ozone is struck by UV light, breaking into an oxygen molecule and an excited oxygen atom ($O^*$). $$O_3 + h\nu (\lambda < 315 \text{ nm}) \rightarrow O^* + O_2$$
+- **Step 2: Water Reaction.** The highly energized $O^*$ atom is extremely unstable. It immediately reacts with ambient water vapor in the troposphere. $$O^* + H_2O \rightarrow 2HO\cdot$$
 - **Conclusion:** This sequence effectively harnesses solar energy to split atmospheric water, creating the powerful $HO\cdot$ radical that subsequently reacts with, and removes, greenhouse gases like $CH_4$ and pollutants like $CO$.
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)

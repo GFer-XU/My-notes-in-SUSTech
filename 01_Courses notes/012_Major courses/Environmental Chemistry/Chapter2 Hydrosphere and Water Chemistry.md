@@ -1,4 +1,4 @@
-
+Here is the note based on the provided chapter on the Hydrosphere and Water Chemistry.
 ## 1. Chapter Global Mind Map
 
 ```mermaid

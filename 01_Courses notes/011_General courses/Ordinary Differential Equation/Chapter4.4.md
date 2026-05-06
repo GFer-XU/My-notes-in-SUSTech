@@ -42,8 +42,8 @@ graph LR
 
 **Algorithm: Damped Harmonic Motion Decision Tree**
 
-```
-graph TD
+```mermaid
+graph LR
     A[Characteristic Equation: \lambda^2 + 2c\lambda + \omega_0^2 = 0] --> B{Calculate Discriminant: c^2 - \omega_0^2}
 
     B -->|< 0| C[Underdamped c < \omega_0]

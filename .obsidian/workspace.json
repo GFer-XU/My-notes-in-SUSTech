@@ -11,14 +11,12 @@
             "id": "b034a0b31d93caa4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01_Courses notes/011_General courses/Ordinary Differential Equation/Chapter4.5.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260506142604.png"
               },
-              "icon": "lucide-file",
-              "title": "Chapter4.5"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260506142604"
             }
           }
         ]
@@ -180,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,15 +194,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a7857d11f5775d6d",
+  "active": "b034a0b31d93caa4",
   "lastOpenFiles": [
-    "01_Courses notes/011_General courses/Ordinary Differential Equation/Chapter4.4.md",
+    "Pasted image 20260506142444.png",
+    "Pasted image 20260506142405.png",
     "01_Courses notes/011_General courses/Ordinary Differential Equation/Chapter4.5.md",
+    "01_Courses notes/011_General courses/Ordinary Differential Equation/Chapter4.4.md",
     "Pasted image 20260506150205.png",
     "Pasted image 20260506142604.png",
     "Pasted image 20260506142513.png",
-    "Pasted image 20260506142444.png",
-    "Pasted image 20260506142405.png",
     "01_Courses notes/012_Major courses/Environmental Chemistry/Chapter2 Hydrosphere and Water Chemistry.md",
     "01_Courses notes/011_General courses/Ordinary Differential Equation",
     "01_Courses notes/011_General courses/Linear Algebra/Test.md",

@@ -61,16 +61,17 @@ graph LR
 
 ## 4. Geometric Insights & Visual Placeholders
 
+> [!picture]
 > ![[Pasted image 20260506142405.png]] 
 >  _This diagram visually unpacks the Amplitude-Phase identity, proving how an abstract linear combination of sine and cosine functions mathematically aligns into a single shifted cosine wave of maximum height $A$, shifted by $\phi / \omega_0$._
 
-
+> [!picture]
 > ![[Pasted image 20260506142513.png]]
 > _This graph displays a decaying sinusoidal curve. The physical oscillation is bounded by an exponential decay envelope, representing how resistive forces continually steal energy from the system over time._
 
-> [!picture] 📸
+> [!Picture] 
 > ![[Pasted image 20260506142604.png]]
->  [Insert screenshot of Textbook Figure 8: The overdamped motion] _Contrasting the underdamped case, this figure visualizes how extreme damping prevents the curve from crossing the horizontal axis, killing oscillation entirely and causing the system to lazily approach zero._
+>  _Contrasting the underdamped case, this figure visualizes how extreme damping prevents the curve from crossing the horizontal axis, killing oscillation entirely and causing the system to lazily approach zero._
 
 ## 5. Common Pitfalls & Take-home Message
 

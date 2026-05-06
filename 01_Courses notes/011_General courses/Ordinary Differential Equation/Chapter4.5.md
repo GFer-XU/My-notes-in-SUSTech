@@ -59,7 +59,8 @@ graph TD
 
 ## 4. Geometric Insights & Visual Placeholders
 
-> [!picture] 📸 [Insert screenshot of Textbook plot demonstrating Transient vs. Steady-State behavior: typically a graph where the true solution oscillates wildly at first but eventually aligns perfectly with a stable sine wave] _This diagram provides the geometric intuition behind $y(t) = y_h(t) + y_p(t)$. The initial jagged curve shows the complete solution, where the homogeneous "transient" part $y_h(t)$ is still active. As $y_h(t)$ decays, the graph visually merges with the pure particular solution $y_p(t)$, which represents the long-term "steady-state" behavior driven by the external force._
+> [!table] 
+> ![[Pasted image 20260506150205.png]]
 
 ## 5. Common Pitfalls & Take-home Message
 

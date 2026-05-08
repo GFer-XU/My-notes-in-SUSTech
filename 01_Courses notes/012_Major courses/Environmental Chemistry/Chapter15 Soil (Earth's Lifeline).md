@@ -44,7 +44,7 @@ graph LR
 
 **1. Pyrite Oxidation (Severe Soil Acidification)** $$4\text{FeS}_2 + \frac{7}{2}\text{O}_2 + \text{H}_2\text{O} \rightarrow \text{Fe}^{2+} + 2\text{H}^+ + 2\text{SO}_4^{2-}$$ _Parameters:_ $\text{FeS}_2$ is solid pyrite (iron disulfide), $\text{Fe}^{2+}$ is the ferrous ion, and $\text{H}^+$ represents acid protons. _Significance:_ This reaction illustrates how exposing pyrite-containing soils to oxygen and water rapidly generates massive amounts of acidity (dropping pH < 3) and releases potentially phytotoxic $\text{Fe}^{2+}$, forming what are known as "cat clays."
 
-**2. Ion-Exchange Equilibrium Constant** $$K_c = \frac{N_K[\text{Na}^+]}{N_{Na}[\text{K}^+]}$$ _Parameters:_ $K_c$ is the exchange constant for the reaction $\text{Soil}}\text{Na}^+ + \text{K}^+(aq) \rightleftharpoons \text{Soil}}\text{K}^+ + \text{Na}^+(aq)$. $N_K$ and $N_{Na}$ are the equivalent fractions of the respective cations bound to the solid soil matrix, while bracketed terms are their concentrations in the surrounding aqueous soil solution. _Significance:_ Quantifies the soil's preference for holding specific nutrient cations over others, dictating how effectively soils can retain fertilizers (like Potassium, $\text{K}^+$) versus leaching them into groundwater.
+**2. Ion-Exchange Equilibrium Constant** $$K_c = \frac{N_K[\text{Na}^+]}{N_{Na}[\text{K}^+]}$$ _Parameters:_ $K_c$ is the exchange constant for the reaction $$\text{Soil}\text{Na}^+ + \text{K}^+(aq) \rightleftharpoons \text{Soil}\text{K}^+ + \text{Na}^+(aq)$$. $N_K$ and $N_{Na}$ are the equivalent fractions of the respective cations bound to the solid soil matrix, while bracketed terms are their concentrations in the surrounding aqueous soil solution. _Significance:_ Quantifies the soil's preference for holding specific nutrient cations over others, dictating how effectively soils can retain fertilizers (like Potassium, $\text{K}^+$) versus leaching them into groundwater.
 
 **3. The Haber-Bosch Process** $$\text{N}_2 + 3\text{H}_2 \xrightarrow{\text{Catalyst, } 500^\circ\text{C, } 1000\text{ atm}} 2\text{NH}_3$$ _Parameters:_ $\text{N}_2$ is atmospheric nitrogen, and $\text{NH}_3$ is ammonia. _Significance:_ The fundamental industrial synthesis pathway for nitrogen fertilizers. This intense catalytic fixation of nitrogen allows for modern agriculture but also leads to massive anthropogenic imbalances in the global nitrogen cycle.
 
@@ -71,8 +71,6 @@ graph LR
 - **Conclusion:** These heavy metal ions flood the soil solution. At elevated concentrations, $\text{Fe}^{2+}$ and $\text{Mn}^{2+}$ are highly phytotoxic (poisonous to plants), causing crop failure in flooded fields.
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
-
-This section systematically covers 100% of the requirements mapped from the "Take-home Message" section (Slide 39) of the source material.
 
 ### A. Core Definitions
 

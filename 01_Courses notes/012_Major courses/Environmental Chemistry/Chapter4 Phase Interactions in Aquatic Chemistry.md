@@ -71,8 +71,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section perfectly maps to the 13 definitions and 4 discussion points explicitly required by the final "Take-home Message" slide of the source document.
-
 ### A. Core Definitions
 
 1. **Sediment:** Layers of finely divided matter (mixtures of clay, silt, sand, and organics) covering the bottoms of water bodies that host organisms and act as sinks for pollutants.

@@ -74,7 +74,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section perfectly covers 100% of the "Take-home Message" slides to ensure complete exam readiness.
 
 ### A. Core Definitions
 

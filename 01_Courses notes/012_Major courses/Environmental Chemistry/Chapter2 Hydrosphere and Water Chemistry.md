@@ -67,8 +67,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section strictly covers 100% of the "Take-home Message" slides provided in the source material.
-
 ### A. Core Definitions
 
 - **Hypolimnion, thermocline and epilimnion layer:** The three distinct vertical temperature layers of a stratified body of water. The epilimnion is the relatively warm, oxygen-rich top layer; the hypolimnion is the cold, relatively oxygen-poor bottom layer; and the thermocline is the transitional middle layer.

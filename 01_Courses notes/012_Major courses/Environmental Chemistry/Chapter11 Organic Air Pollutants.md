@@ -71,7 +71,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section perfectly maps to the 6 definitions and 2 discussion points strictly required by the final "Take-home Message" slide (Slide 36) of the source document.
 
 ### A. Core Definitions
 

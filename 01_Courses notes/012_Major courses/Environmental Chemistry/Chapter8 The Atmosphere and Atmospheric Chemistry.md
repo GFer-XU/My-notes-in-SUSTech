@@ -68,8 +68,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section strictly covers 100% of the requirements from the "Take-home Message" section (Slide 49) of the source material.
-
 ### A. Core Definitions
 
 1. **Excited state:** A chemically unstable, energetically rich species formed when a molecule absorbs a photon of light; typically designated with an asterisk ($*$).

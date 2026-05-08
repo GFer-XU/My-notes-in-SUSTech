@@ -70,7 +70,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section systematically covers the 9 explicit review points exactly as required by the "Take-home Message" slide (Slide 67) of the source document.
 
 ### A. Core Definitions
 

@@ -81,7 +81,6 @@ graph LR
 
 ## 5. Exhaustive Take-home Messages (Exam Prep Focus)
 
-This section strictly covers 100% of the requirements from the "Take-home Message" section (Slide 61) of the source material.
 
 ### A. Core Definitions
 

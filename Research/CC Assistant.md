@@ -20,7 +20,7 @@
 
 ## 0.2 信息源清单
 
-**英文数据库（5）** Web of Science Core Collection (SCI-E, SSCI)、Scopus、ScienceDirect、ACS Publications、Wiley Online Library、AGU (含 JGR-Atmospheres、GBC)、SpringerLink、Taylor & Francis。
+**英文数据库（5）** ==Web of Science Core Collection (SCI-E, SSCI)、Scopus、ScienceDirect、ACS Publications、Wiley Online Library、AGU (含 JGR-Atmospheres、GBC)、SpringerLink、Taylor & Francis。==
 
 **中文数据库（4）** CNKI 中国知网（期刊+博硕论文+会议+报纸）、万方数据、维普期刊、超星读秀。
 
@@ -202,9 +202,3 @@ AND
 - 代码许可：MIT；数据许可：CC-BY 4.0
 
 ---
-
-## ⚠ 唯一待决策问题
-
-**对默认 Tier 边界、元分析方法（log-RR 随机效应为主 + 加权均值 + 分层贝叶斯做敏感性）、交付格式（CSV + Zenodo schema 为主，SQLite 可选）三项，是否有调整意见？**
-
-无意见请回复"进入阶段 1"，将启动 web_search 实证检索并交付 ≥50 篇核心文献清单 + 覆盖矩阵。

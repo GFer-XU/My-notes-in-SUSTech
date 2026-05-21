@@ -38,6 +38,7 @@
 
 ### 英文（WoS/Scopus/ScienceDirect 范式，TS = topic）
 
+WoS
 ```
 TS=(
   ("biogenic volatile organic compound*" OR BVOC OR "biogenic VOC*" OR
@@ -67,9 +68,15 @@ TS=(
 文献类型：Article OR Review OR Proceedings Paper OR Data Paper
 语种：English
 ```
-
+Scopus
 ```
-
+TITLE-ABS-KEY (
+("biogenic volatile organic compound*" OR BVOC* OR "biogenic VOC*" OR isoprene OR monoterpene* OR sesquiterpene* OR *pinene OR limonene OR ocimene OR sabinene OR myrcene OR camphene OR *carene OR caryophyllene OR humulene OR farnesene OR methanol OR acetone OR acetaldehyde OR MBO OR "2-methyl-3-buten-2-ol" OR "green leaf volatile*" OR GLV* OR "cis-3-hexenal" OR "hexenyl acetate")
+AND
+("emission factor*" OR "emission rate*" OR "emission capacit*" OR "emission potential*" OR "standard emission*" OR "basal emission*" OR flux OR exchange OR "emission strength")
+AND
+(China OR Chinese OR PRC OR Tibet OR Tibetan OR Xizang OR Taiwan OR Taiwanese OR "Hong Kong" OR Macau OR Macao OR Yunnan OR Sichuan OR Guangdong OR Guangxi OR Hainan OR Fujian OR Zhejiang OR Jiangsu OR Jiangxi OR Hunan OR Hubei OR Anhui OR Shandong OR Henan OR Hebei OR Shanxi OR Shaanxi OR Gansu OR Qinghai OR Ningxia OR Xinjiang OR "Inner Mongolia" OR Heilongjiang OR Jilin OR Liaoning OR Beijing OR Shanghai OR Tianjin OR Chongqing OR Guizhou)
+)
 ```
 ### 中文（CNKI/万方 范式）
 

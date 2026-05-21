@@ -62,12 +62,15 @@ TS=(
    Heilongjiang OR Jilin OR Liaoning OR Beijing OR Shanghai OR
    Tianjin OR Chongqing OR Guizhou)
 )
-NOT TS=("anthropogenic" AND NOT "biogenic")
+
 时间窗：2000-01-01 至检索日
 文献类型：Article OR Review OR Proceedings Paper OR Data Paper
 语种：English
 ```
 
+```
+
+```
 ### 中文（CNKI/万方 范式）
 
 ```

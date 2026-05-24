@@ -11,12 +11,14 @@
             "id": "b034a0b31d93caa4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "01_Courses notes/_attachments/Pasted image 20260506142604.png"
+                "file": "Research/EFs of China/Read&Extract log/北京.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260506142604"
+              "icon": "lucide-file",
+              "title": "北京"
             }
           }
         ]
@@ -196,9 +198,12 @@
   },
   "active": "b034a0b31d93caa4",
   "lastOpenFiles": [
-    "01_Courses notes/_attachments/Pasted image 20260506150205.png",
-    "Research/EFs of China/Read&Extract log/北京.md",
     "01_Courses notes/_attachments/capture_20260524203419065.bmp",
+    "Research/EFs of China/Read&Extract log/北京.md",
+    "01_Courses notes/_attachments/Pasted image 20260506142513.png",
+    "01_Courses notes/_attachments/Pasted image 20260506142444.png",
+    "01_Courses notes/_attachments/Pasted image 20260506142604.png",
+    "01_Courses notes/_attachments/Pasted image 20260506150205.png",
     "Research/科研杂记.md",
     "Research/EFs of China/Read&Extract log",
     "Research/EFs of China/EFs Issue list.md",
@@ -226,9 +231,6 @@
     "01_Courses notes/011_General courses/Ordinary Differential Equation/Chapter4.4.md",
     "01_Courses notes/011_General courses/Ordinary Differential Equation/Chapter4.5.md",
     "Pasted image 20260506142405.png",
-    "01_Courses notes/_attachments/Pasted image 20260506142604.png",
-    "01_Courses notes/_attachments/Pasted image 20260506142513.png",
-    "01_Courses notes/_attachments/Pasted image 20260506142444.png",
     "01_Courses notes/_attachments/Pasted image 20260506142405.png",
     "01_Courses notes/_attachments",
     "01_Courses notes/_attachment",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Courses notes/012_Major courses/Environmental Chemistry/Chapter 3.md",
+                "file": "01_Courses notes/012_Major courses/Environmental Chemistry/CC-Chapter 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3"
+              "title": "CC-Chapter 3"
             }
           }
         ]
@@ -198,10 +198,12 @@
   },
   "active": "a6ddeea063a4a96a",
   "lastOpenFiles": [
-    "pE–pH Diagram.md",
-    "01_Courses notes/012_Major courses/Environmental Chemistry/Chapter 3.md",
-    "01_Courses notes/_attachments/Pasted image 20260601161930.png",
+    "01_Courses notes/012_Major courses/Environmental Chemistry/CC-Ch4_Phase_Interactions_in_Aquatic_Chemistry.md",
+    "01_Courses notes/012_Major courses/Environmental Chemistry/Ch4_Phase_Interactions_in_Aquatic_Chemistry.md.crdownload",
     "01_Courses notes/012_Major courses/Environmental Chemistry/Chapter3 Redox in aquatic chemistry.md",
+    "01_Courses notes/012_Major courses/Environmental Chemistry/CC-Chapter 3.md",
+    "pE–pH Diagram.md",
+    "01_Courses notes/_attachments/Pasted image 20260601161930.png",
     "01_Courses notes/012_Major courses/Environmental Chemistry/Chapter2 Hydrosphere and Water Chemistry.md",
     "Research/EFs of China/Read&Extract log/北京.md",
     "Research/EFs of China/CC/CC prompt.md",
@@ -241,10 +243,8 @@
     "Pasted image 20260506142604.png",
     "Pasted image 20260506142444.png",
     "01_Courses notes/011_General courses/Ordinary Differential Equation",
-    "01_Courses notes/011_General courses/Linear Algebra/Test.md",
     "01_Courses notes/012_Major courses/Environmental Chemistry/Untitled.canvas",
     "01_Courses notes/012_Major courses/Environmental Chemistry",
-    "01_Courses notes/011_General courses/Linear Algebra",
     "Untitled.canvas"
   ]
 }

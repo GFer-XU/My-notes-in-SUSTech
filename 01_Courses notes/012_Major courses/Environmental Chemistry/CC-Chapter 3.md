@@ -116,13 +116,13 @@ flowchart TD
 
 > [!important] Redox ladder / 氧化还原序列 (★ key environmental concept) Use **pE⁰(W)** = pE⁰ at pH 7 ($a_{H^+}=10^{-7}$): $;pE^0(W) = pE^0 - 7,(n_{H^+}/n_{e^-})$. Ranking pE⁰(W) gives the **order in which microbes consume electron acceptors** as O₂ is used up:
 
-|Process (microbial)|per-e⁻ half-reaction|pE⁰(W)|
-|---|---|---|
-|Aerobic respiration|¼O₂ + H⁺ + e⁻ ⇌ ½H₂O|**+13.75**|
-|Denitrification|⅕NO₃⁻ + 6/5 H⁺ + e⁻ ⇌ ¹⁄₁₀N₂ + ⅗H₂O|+12.65|
-|Nitrate → ammonium|⅛NO₃⁻ + 5/4 H⁺ + e⁻ ⇌ ⅛NH₄⁺ + ⅜H₂O|+6.15|
-|Sulfate reduction|⅛SO₄²⁻ + 5/4 H⁺ + e⁻ ⇌ ⅛H₂S + ½H₂O|≈ −3.5|
-|Methanogenesis|⅛CO₂ + H⁺ + e⁻ ⇌ ⅛CH₄ + ¼H₂O|−4.13|
+| Process (microbial) | per-e⁻ half-reaction                | pE⁰(W)     |
+| ------------------- | ----------------------------------- | ---------- |
+| Aerobic respiration | ¼O₂ + H⁺ + e⁻ ⇌ ½H₂O                | **+13.75** |
+| Denitrification     | ⅕NO₃⁻ + 6/5 H⁺ + e⁻ ⇌ ¹⁄₁₀N₂ + ⅗H₂O | +12.65     |
+| Nitrate → ammonium  | ⅛NO₃⁻ + 5/4 H⁺ + e⁻ ⇌ ⅛NH₄⁺ + ⅜H₂O  | +6.15      |
+| Sulfate reduction   | ⅛SO₄²⁻ + 5/4 H⁺ + e⁻ ⇌ ⅛H₂S + ½H₂O  | ≈ −3.5     |
+| Methanogenesis      | ⅛CO₂ + H⁺ + e⁻ ⇌ ⅛CH₄ + ¼H₂O        | −4.13      |
 
 > **Sequence (decreasing pE):** O₂ → NO₃⁻ → Mn(IV) → Fe(III) → SO₄²⁻ → CO₂. Higher pE⁰(W) = more energy-yielding ("preferred") acceptor.
 

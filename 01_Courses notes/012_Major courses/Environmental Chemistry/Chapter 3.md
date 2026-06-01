@@ -1,16 +1,3 @@
----
-
-title: "Ch3 · Oxidation–Reduction in Aquatic Chemistry" course: Environmental Chemistry tags:
-
-- environmental-chemistry
-- redox
-- aquatic-chemistry
-- pE-pH
-- nernst aliases:
-- Aquatic Redox
-- pE and Redox in Water created: 2026-06-01
-
----
 
 # Chapter 3 · Oxidation–Reduction in Aquatic Chemistry
 

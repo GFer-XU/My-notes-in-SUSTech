@@ -1,0 +1,256 @@
+<!-- 物理化学公式速查表 / Cheat Sheet -->
+
+# 物理化学公式速查表（Cheat Sheet）
+
+> **颜色图例（Legend）**：<span style="color:#C00000">**红色 = 适用条件 / 状态前提（conditions）**</span>　|　$\color{#1565C0}{\text{蓝色 = 公式本体（formula）}}$　|　黑色 = 名称与说明。
+> 浏览时先看红色条件，确认状态满足后再用蓝色公式。若你的阅读器不支持 LaTeX 颜色，公式将显示为黑色，但红色条件仍清晰区分。
+> 打印建议：双栏、字号 8–9 pt，可压入 1 张 A4（正反面）。
+
+---
+
+## Ch1　气体（Gases）
+
+**理想气体状态方程 perfect gas law**　<span style="color:#C00000">理想气体</span>　$\color{#1565C0}{pV=nRT=\;}$ ，$\color{#1565C0}{pV_m=RT}$
+
+**组合气体方程 combined**　<span style="color:#C00000">n 一定</span>　$\color{#1565C0}{\dfrac{p_1V_1}{T_1}=\dfrac{p_2V_2}{T_2}}$
+
+**Dalton 分压**　<span style="color:#C00000">任意气体</span>　$\color{#1565C0}{p_i=x_ip,\ p=\sum p_i}$；　<span style="color:#C00000">仅理想</span>　$\color{#1565C0}{p_i=\dfrac{n_iRT}{V}}$
+
+**Amagat 分体积**　<span style="color:#C00000">恒 T,p</span>　$\color{#1565C0}{V_i=x_iV,\ V=\sum V_i}$
+
+**压缩因子 Z**　<span style="color:#C00000">任意气体</span>　$\color{#1565C0}{Z=\dfrac{pV_m}{RT}=\dfrac{V_m}{V_m^o}}$　（$Z=1$ 理想；$Z>1$ 斥力主导；$Z<1$ 引力主导）
+
+**维里方程 virial**　<span style="color:#C00000">真实气体</span>　$\color{#1565C0}{pV_m=RT\!\left(1+\dfrac{B}{V_m}+\dfrac{C}{V_m^2}+\cdots\right)}$
+
+**van der Waals**　<span style="color:#C00000">真实气体</span>　$\color{#1565C0}{\left(p+\dfrac{a}{V_m^2}\right)(V_m-b)=RT}$，$\color{#1565C0}{p=\dfrac{RT}{V_m-b}-\dfrac{a}{V_m^2}}$
+
+**Boyle 温度**　<span style="color:#C00000">vdW 气体</span>　$\color{#1565C0}{T_B=\dfrac{a}{Rb}}$
+
+**vdW 临界常数**　<span style="color:#C00000">临界点 $(\partial p/\partial V_m)_T=(\partial^2p/\partial V_m^2)_T=0$</span>　$\color{#1565C0}{V_c=3b,\ p_c=\dfrac{a}{27b^2},\ T_c=\dfrac{8a}{27Rb}}$
+
+**对应状态**　$\color{#1565C0}{p_r=p/p_c,\ V_r=V_m/V_c,\ T_r=T/T_c}$
+
+---
+
+## Ch2　第一定律（First Law）
+
+**第一定律**　<span style="color:#C00000">封闭系统</span>　$\color{#1565C0}{\Delta U=q+w},\ \mathrm{d}U=\mathrm{d}q+\mathrm{d}w$　（$w$=环境对系统做功）
+
+**体积功 一般式**　<span style="color:#C00000">任意</span>　$\color{#1565C0}{w=-\displaystyle\int_{V_i}^{V_f}p_{ex}\,\mathrm{d}V}$
+
+**自由膨胀**　<span style="color:#C00000">$p_{ex}=0$</span>　$\color{#1565C0}{w=0}$
+
+**恒外压膨胀**　<span style="color:#C00000">$p_{ex}=$const</span>　$\color{#1565C0}{w=-p_{ex}\Delta V}$
+
+**等温可逆膨胀**　<span style="color:#C00000">理想气体, 等温可逆</span>　$\color{#1565C0}{w=-nRT\ln\dfrac{V_f}{V_i}=-nRT\ln\dfrac{p_i}{p_f}}$
+
+**恒容**　<span style="color:#C00000">恒 V, 无非体积功</span>　$\color{#1565C0}{\Delta U=q_V}$
+
+**焓定义**　<span style="color:#C00000">任意</span>　$\color{#1565C0}{H=U+pV}$
+
+**恒压**　<span style="color:#C00000">恒 p, 无非体积功</span>　$\color{#1565C0}{\Delta H=q_p}$
+
+**热容定义**　$\color{#1565C0}{C_V=\Big(\dfrac{\partial U}{\partial T}\Big)_V,\quad C_p=\Big(\dfrac{\partial H}{\partial T}\Big)_p}$
+
+**热容求 ΔU/ΔH**　<span style="color:#C00000">C 不随 T 变</span>　$\color{#1565C0}{\Delta U=C_V\Delta T,\ \Delta H=C_p\Delta T}$；　<span style="color:#C00000">C 随 T 变</span>　$\color{#1565C0}{\Delta H=\int C_p\,\mathrm{d}T}$
+
+**ΔH 与 ΔU**　<span style="color:#C00000">任意</span>　$\color{#1565C0}{\Delta H=\Delta U+\Delta(pV)}$；　<span style="color:#C00000">理想气体反应</span>　$\color{#1565C0}{\Delta H=\Delta U+\Delta n_gRT}$
+
+**热容差**　<span style="color:#C00000">理想气体</span>　$\color{#1565C0}{C_p-C_V=nR,\ C_{p,m}-C_{V,m}=R}$
+
+**Joule 定律**　<span style="color:#C00000">理想气体</span>　$\color{#1565C0}{\Big(\dfrac{\partial U}{\partial V}\Big)_T=0,\ U=U(T),\ H=H(T)}$
+　→ <span style="color:#C00000">理想气体, 任意过程</span>　$\color{#1565C0}{\Delta U=\int C_V\mathrm{d}T,\ \Delta H=\int C_p\mathrm{d}T}$　（**不限恒容/恒压！**）
+
+**绝热**　<span style="color:#C00000">绝热 q=0</span>　$\color{#1565C0}{\Delta U=w_{ad}=C_V\Delta T}$
+
+**绝热可逆**　<span style="color:#C00000">理想气体, 绝热可逆</span>　$\color{#1565C0}{pV^\gamma=\text{const},\ TV^{\,c}=\text{const}\ (c=\tfrac{C_{V,m}}{R}),\ \gamma=\dfrac{C_{p,m}}{C_{V,m}}}$
+　$\color{#1565C0}{\dfrac{T_i}{T_f}=\Big(\dfrac{V_f}{V_i}\Big)^{\gamma-1}}$
+
+**Joule–Thomson**　<span style="color:#C00000">节流, 恒焓 $H_i=H_f$</span>　$\color{#1565C0}{\mu=\Big(\dfrac{\partial T}{\partial p}\Big)_H,\ \mu_T=\Big(\dfrac{\partial H}{\partial p}\Big)_T=-C_p\mu}$　（理想 μ=0）
+
+**反应焓**　$\color{#1565C0}{\Delta_rH^\ominus=\sum_J\nu_J H_m^\ominus(J)=\sum_{产}\nu\Delta_fH^\ominus-\sum_{反}\nu\Delta_fH^\ominus}$
+
+**升华=熔化+蒸发**　$\color{#1565C0}{\Delta_{sub}H^\ominus=\Delta_{fus}H^\ominus+\Delta_{vap}H^\ominus}$
+
+**Kirchhoff 定律**　<span style="color:#C00000">$\Delta_rC_p$=const 时取后式</span>　$\color{#1565C0}{\Delta_rH^\ominus(T_2)=\Delta_rH^\ominus(T_1)+\int_{T_1}^{T_2}\Delta_rC_p^\ominus\,\mathrm{d}T}$
+　$\color{#1565C0}{\Delta_rC_p^\ominus=\sum_J\nu_J C_{p,m}^\ominus(J)}$
+
+---
+
+## Ch3　第二定律（Second Law）
+
+**熵定义**　<span style="color:#C00000">可逆途径</span>　$\color{#1565C0}{\mathrm{d}S=\dfrac{\mathrm{d}q_{rev}}{T}},\ \Delta S=\int\dfrac{\mathrm{d}q_{rev}}{T}}$
+
+**Clausius 不等式**　<span style="color:#C00000">任意过程</span>　$\color{#1565C0}{\mathrm{d}S\ge\dfrac{\mathrm{d}q}{T}}$（=可逆, >不可逆）
+
+**熵增原理**　<span style="color:#C00000">孤立系统</span>　$\color{#1565C0}{\mathrm{d}S\ge0}$；判据 $\color{#1565C0}{\Delta S_{tot}=\Delta S+\Delta S_{sur}\ge0}$
+
+**Carnot 效率**　<span style="color:#C00000">可逆热机</span>　$\color{#1565C0}{\eta=1-\dfrac{T_c}{T_h}=1-\dfrac{|q_c|}{|q_h|}}$
+
+**相变熵**　<span style="color:#C00000">$T_{trs}$ 可逆相变</span>　$\color{#1565C0}{\Delta_{trs}S=\dfrac{\Delta_{trs}H}{T_{trs}}}$
+
+**等温熵变**　<span style="color:#C00000">理想气体, 等温</span>　$\color{#1565C0}{\Delta S=nR\ln\dfrac{V_f}{V_i}}$
+
+**变温熵变**　<span style="color:#C00000">恒 p, $C_p$=const</span>　$\color{#1565C0}{\Delta S=C_p\ln\dfrac{T_f}{T_i}}$；　<span style="color:#C00000">恒 V</span>　$\color{#1565C0}{\Delta S=C_V\ln\dfrac{T_f}{T_i}}$
+
+**理想气体一般熵变**　<span style="color:#C00000">理想气体, T、V 都变</span>　$\color{#1565C0}{\Delta S=C_V\ln\dfrac{T_f}{T_i}+nR\ln\dfrac{V_f}{V_i}}$
+
+**环境熵变**　<span style="color:#C00000">环境为大热库, 恒 T</span>　$\color{#1565C0}{\Delta S_{sur}=-\dfrac{q_{系统}}{T_{sur}}}$
+
+**Trouton 规则**　<span style="color:#C00000">多数液体</span>　$\color{#1565C0}{\Delta_{vap}H/T_b\approx85\ \text{J K}^{-1}\text{mol}^{-1}}$
+
+**第三定律**　<span style="color:#C00000">完美晶体, T=0</span>　$\color{#1565C0}{S(0)=0}$；Debye 外推 <span style="color:#C00000">低 T</span> $\color{#1565C0}{C_p=aT^3}$
+
+**标准反应熵**　$\color{#1565C0}{\Delta_rS^\ominus=\sum_J\nu_J S_m^\ominus(J)}$
+
+**Helmholtz 能**　$\color{#1565C0}{A=U-TS}$；　<span style="color:#C00000">恒 T,V</span> 判据 $\color{#1565C0}{\mathrm{d}A_{T,V}\le0}$；　<span style="color:#C00000">等温可逆</span> $\color{#1565C0}{\Delta A=w_{max}}$
+
+**Gibbs 能**　$\color{#1565C0}{G=H-TS}$；　<span style="color:#C00000">恒 T,p</span> 判据 $\color{#1565C0}{\mathrm{d}G_{T,p}\le0}$；　<span style="color:#C00000">恒 T,p 可逆</span> $\color{#1565C0}{\Delta G=w_{e,max}}$（非体积功）
+
+**恒 T**　$\color{#1565C0}{\Delta G=\Delta H-T\Delta S}$；标准 $\color{#1565C0}{\Delta_rG^\ominus=\Delta_rH^\ominus-T\Delta_rS^\ominus=\sum\nu\Delta_fG^\ominus}$
+
+**基本方程**　<span style="color:#C00000">封闭, 无非体积功, 可逆</span>
+$\color{#1565C0}{\mathrm{d}U=T\mathrm{d}S-p\mathrm{d}V}$；$\color{#1565C0}{\mathrm{d}H=T\mathrm{d}S+V\mathrm{d}p}$；$\color{#1565C0}{\mathrm{d}A=-p\mathrm{d}V-S\mathrm{d}T}$；$\color{#1565C0}{\mathrm{d}G=V\mathrm{d}p-S\mathrm{d}T}$
+
+**Maxwell 关系**　$\color{#1565C0}{\Big(\tfrac{\partial T}{\partial V}\Big)_S=-\Big(\tfrac{\partial p}{\partial S}\Big)_V}$；$\color{#1565C0}{\Big(\tfrac{\partial T}{\partial p}\Big)_S=\Big(\tfrac{\partial V}{\partial S}\Big)_p}$；$\color{#1565C0}{\Big(\tfrac{\partial p}{\partial T}\Big)_V=\Big(\tfrac{\partial S}{\partial V}\Big)_T}$；$\color{#1565C0}{\Big(\tfrac{\partial V}{\partial T}\Big)_p=-\Big(\tfrac{\partial S}{\partial p}\Big)_T}$
+
+**内压力**　$\color{#1565C0}{\pi_T=\Big(\tfrac{\partial U}{\partial V}\Big)_T=T\Big(\tfrac{\partial p}{\partial T}\Big)_V-p}$　（理想 0；vdW $a/V_m^2$）
+
+**G 随 T,p**　$\color{#1565C0}{\Big(\tfrac{\partial G}{\partial T}\Big)_p=-S,\ \Big(\tfrac{\partial G}{\partial p}\Big)_T=V}$
+
+**Gibbs–Helmholtz**　$\color{#1565C0}{\Big(\dfrac{\partial(G/T)}{\partial T}\Big)_p=-\dfrac{H}{T^2}}$
+
+**G 随 p（液固）**　<span style="color:#C00000">不可压缩</span>　$\color{#1565C0}{G_m(p_f)=G_m(p_i)+V_m\Delta p}$
+
+**G 随 p（气）**　<span style="color:#C00000">理想气体, 等温</span>　$\color{#1565C0}{G(p_f)=G(p_i)+nRT\ln\dfrac{p_f}{p_i}}$　→ $\color{#1565C0}{\mu=\mu^\ominus+RT\ln\dfrac{p}{p^\ominus}}$
+
+**逸度**　<span style="color:#C00000">真实气体</span>　$\color{#1565C0}{G=G^\ominus+nRT\ln\dfrac{f}{p^\ominus},\ f=\phi p}$
+
+---
+
+## Ch4　纯物质相变（Phase Transitions）
+
+**相平衡判据**　<span style="color:#C00000">两相平衡</span>　$\color{#1565C0}{\mu(\alpha)=\mu(\beta)}$
+
+**μ 随 T,p**　$\color{#1565C0}{\Big(\tfrac{\partial\mu}{\partial T}\Big)_p=-S_m<0,\ \Big(\tfrac{\partial\mu}{\partial p}\Big)_T=V_m>0}$
+
+**Clapeyron 方程**　<span style="color:#C00000">任意两相平衡（精确）</span>　$\color{#1565C0}{\dfrac{\mathrm{d}p}{\mathrm{d}T}=\dfrac{\Delta_{trs}S}{\Delta_{trs}V}=\dfrac{\Delta_{trs}H}{T\Delta_{trs}V}}$
+
+**固–液**　<span style="color:#C00000">固液平衡, T≈T*</span>　$\color{#1565C0}{p\approx p^*+\dfrac{(T-T^*)\Delta_{fus}H}{T^*\Delta_{fus}V}}$
+
+**Clausius–Clapeyron**　<span style="color:#C00000">液–气/固–气, 蒸气理想, $V_m(g)\gg V_m(l)$, $\Delta_{vap}H$=const</span>
+$\color{#1565C0}{\dfrac{\mathrm{d}\ln p}{\mathrm{d}T}=\dfrac{\Delta_{vap}H}{RT^2}}$　→　$\color{#1565C0}{\ln\dfrac{p_2}{p_1}=-\dfrac{\Delta_{vap}H}{R}\Big(\dfrac{1}{T_2}-\dfrac{1}{T_1}\Big)}$
+
+**相变分类**　一级：μ 一阶导不连续, $C_p\to\infty$；二级：二阶导不连续；λ：$C_p\to\infty$ 但非一级
+
+**表面功 / 表面张力**　$\color{#1565C0}{\mathrm{d}w=\gamma\,\mathrm{d}\sigma}$；　<span style="color:#C00000">恒 V,T</span>　$\color{#1565C0}{\mathrm{d}A=\gamma\,\mathrm{d}\sigma}$
+
+**Laplace 方程**　<span style="color:#C00000">弯曲界面</span>　$\color{#1565C0}{p_{in}=p_{out}+\dfrac{2\gamma}{r}}$
+
+**Kelvin 方程**　<span style="color:#C00000">液滴 droplet</span>　$\color{#1565C0}{p=p^*e^{+2\gamma V_m/rRT}}\ (p>p^*)$；　<span style="color:#C00000">空腔 cavity</span>　$\color{#1565C0}{p=p^*e^{-2\gamma V_m/rRT}}\ (p<p^*)$
+
+**外压对蒸气压**　<span style="color:#C00000">惰性气体加压于液面</span>　$\color{#1565C0}{p=p^*e^{V_m\Delta P/RT}}$
+
+**毛细上升**　$\color{#1565C0}{h=\dfrac{2\gamma}{\rho g r}}$
+
+---
+
+## Ch5　简单混合物（Simple Mixtures）
+
+**偏摩尔体积**　$\color{#1565C0}{V_B=\Big(\tfrac{\partial V}{\partial n_B}\Big)_{T,p,n'},\ V=n_AV_A+n_BV_B}$
+
+**化学势（偏摩尔 G）**　$\color{#1565C0}{\mu_B=\Big(\tfrac{\partial G}{\partial n_B}\Big)_{T,p,n'},\ G=\sum n_J\mu_J}$
+
+**变组成基本式**　$\color{#1565C0}{\mathrm{d}G=V\mathrm{d}p-S\mathrm{d}T+\sum_J\mu_J\mathrm{d}n_J}$；　<span style="color:#C00000">恒 T,p</span>　$\color{#1565C0}{\mathrm{d}G=\sum\mu_J\mathrm{d}n_J}$
+
+**Gibbs–Duhem**　<span style="color:#C00000">恒 T,p</span>　$\color{#1565C0}{\sum_J n_J\,\mathrm{d}\mu_J=0}$
+
+**理想气体化学势**　$\color{#1565C0}{\mu=\mu^\ominus+RT\ln\dfrac{p}{p^\ominus}}$
+
+**混合 Gibbs 能**　<span style="color:#C00000">理想气体, 恒 T,p</span>　$\color{#1565C0}{\Delta_{mix}G=nRT(x_A\ln x_A+x_B\ln x_B)}$
+
+**混合熵**　<span style="color:#C00000">理想气体/理想溶液</span>　$\color{#1565C0}{\Delta_{mix}S=-nR(x_A\ln x_A+x_B\ln x_B)}$
+
+**混合焓/体积**　<span style="color:#C00000">理想</span>　$\color{#1565C0}{\Delta_{mix}H=0,\ \Delta_{mix}V=0}$
+
+**Raoult 定律**　<span style="color:#C00000">溶剂/理想溶液</span>　$\color{#1565C0}{p_A=x_A\,p_A^*}$；理想溶液化学势 $\color{#1565C0}{\mu_A=\mu_A^*+RT\ln x_A}$
+
+**Henry 定律**　<span style="color:#C00000">溶质/理想稀溶液</span>　$\color{#1565C0}{p_B=x_B\,K_B}$
+
+**沸点升高**　<span style="color:#C00000">稀溶液, 溶质不挥发</span>　$\color{#1565C0}{\Delta T=K_b\,b},\ K_b=\dfrac{R{T_A^*}^2M_A}{\Delta_{vap}H_{m,A}}}$
+
+**凝固点降低**　<span style="color:#C00000">稀溶液, 溶质不溶于固相</span>　$\color{#1565C0}{\Delta T=K_f\,b},\ K_f=\dfrac{R{T_A^*}^2M_A}{\Delta_{fus}H_{m,A}}}$
+　测摩尔质量 $\color{#1565C0}{M_B=\dfrac{K_f\,m_B}{\Delta T\,m_A}}$（水 $K_f$=1.86, $K_b$=0.51 K kg mol⁻¹）
+
+**渗透压（van't Hoff）**　<span style="color:#C00000">稀溶液</span>　$\color{#1565C0}{\Pi V=n_BRT,\ \Pi=[B]RT}$
+
+**溶剂活度**　<span style="color:#C00000">真实溶液, 从 Raoult</span>　$\color{#1565C0}{a_A=\dfrac{p_A}{p_A^*}=\gamma_Ax_A,\ \mu_A=\mu_A^*+RT\ln a_A}$　（$x_A\to1,\gamma_A\to1$）
+
+**溶质活度**　<span style="color:#C00000">真实溶液, 从 Henry</span>　$\color{#1565C0}{a_B=\dfrac{p_B}{K_B}=\gamma_Bx_B,\ \mu_B=\mu_B^\ominus+RT\ln a_B}$　（$x_B\to0,\gamma_B\to1$）
+
+---
+
+## Ch6　相图（Phase Diagrams）
+
+**相律**　<span style="color:#C00000">一般</span>　$\color{#1565C0}{F=C-P+2}$；　<span style="color:#C00000">恒 p 或恒 T（凝聚体系）</span>　$\color{#1565C0}{F=C-P+1}$
+
+**杠杆规则 lever rule**　<span style="color:#C00000">两相区, 连结线上</span>　$\color{#1565C0}{n_\alpha l_\alpha=n_\beta l_\beta},\ \dfrac{n_\alpha}{n_\beta}=\dfrac{l_\beta}{l_\alpha}}$（离哪相远哪相多）
+
+**理想混合总压**　<span style="color:#C00000">理想溶液（液相组成）</span>　$\color{#1565C0}{p=p_A^*+(p_B^*-p_A^*)x_A}$
+
+**蒸气组成**　$\color{#1565C0}{y_A=\dfrac{x_Ap_A^*}{p}}$（富集易挥发组分）
+
+**共沸物**：正偏差大→最低恒沸点（min-boiling, 如乙醇–水）；负偏差大→最高恒沸点（max-boiling）；恒沸点处 $x_A=y_A$
+**低共熔 eutectic**：液体直接凝固出两固体, 组成固定、熔点最低（冷却曲线出现平台）
+
+---
+
+## Ch7　化学平衡（Chemical Equilibrium）
+
+**反应进度**　$\color{#1565C0}{\mathrm{d}n_i=\nu_i\,\mathrm{d}\xi}$（产物 ν>0, 反应物 ν<0）
+
+**反应 Gibbs 能**　$\color{#1565C0}{\Delta_rG=\Big(\tfrac{\partial G}{\partial\xi}\Big)_{T,p}=\sum_i\nu_i\mu_i}$　（<0 正向；>0 逆向；=0 平衡）
+
+**等温方程**　$\color{#1565C0}{\Delta_rG=\Delta_rG^\ominus+RT\ln Q,\ Q=\prod_i\Big(\dfrac{p_i}{p^\ominus}\Big)^{\nu_i}}$
+
+**平衡常数**　<span style="color:#C00000">平衡时 Q=K</span>　$\color{#1565C0}{\Delta_rG^\ominus=-RT\ln K,\ K=e^{-\Delta_rG^\ominus/RT}}$
+　$\color{#1565C0}{\Delta_rG=RT\ln\dfrac{Q}{K}}$（$Q<K$ 正向, $Q>K$ 逆向）
+
+**标准反应 Gibbs 能**　$\color{#1565C0}{\Delta_rG^\ominus=\Delta_rH^\ominus-T\Delta_rS^\ominus=\sum\nu\Delta_fG^\ominus}$
+
+**Kp 与 Kx**　<span style="color:#C00000">气相</span>　$\color{#1565C0}{K=K_x\Big(\dfrac{p}{p^\ominus}\Big)^{\sum\nu_i}}$　（加压向气体分子少的一侧移动）
+
+**van't Hoff 方程**　<span style="color:#C00000">气相</span>　$\color{#1565C0}{\dfrac{\mathrm{d}\ln K}{\mathrm{d}T}=\dfrac{\Delta_rH^\ominus}{RT^2},\ \dfrac{\mathrm{d}\ln K}{\mathrm{d}(1/T)}=-\dfrac{\Delta_rH^\ominus}{R}}$
+　<span style="color:#C00000">$\Delta_rH^\ominus$=const</span>　$\color{#1565C0}{\ln\dfrac{K_2}{K_1}=-\dfrac{\Delta_rH^\ominus}{R}\Big(\dfrac{1}{T_2}-\dfrac{1}{T_1}\Big)}$
+　（吸热升温 K↑；放热升温 K↓）
+
+---
+
+## Ch8　电化学（Electrochemistry）
+
+**离子活度**　$\color{#1565C0}{a=\gamma\dfrac{b}{b^\ominus},\ \mu=\mu^\ominus+RT\ln a}$　（$b\to0,\gamma\to1$）
+
+**平均活度系数**　<span style="color:#C00000">$M_pX_q,\ s=p+q$</span>　$\color{#1565C0}{\gamma_\pm=(\gamma_+^p\gamma_-^q)^{1/s}}$
+
+**离子强度**　$\color{#1565C0}{I=\dfrac12\sum_i z_i^2\dfrac{b_i}{b^\ominus}}$
+
+**Debye–Hückel 极限定律**　<span style="color:#C00000">极稀 $b<10^{-3}$ mol/kg</span>　$\color{#1565C0}{\log\gamma_\pm=-|z_+z_-|A\,I^{1/2}}$（水 25°C, A=0.509）
+
+**扩展定律**　<span style="color:#C00000">$10^{-3}<b<0.1$</span>　$\color{#1565C0}{\log\gamma_\pm=-\dfrac{A|z_+z_-|I^{1/2}}{1+BI^{1/2}}}$
+
+**电动势与 Gibbs 能**　<span style="color:#C00000">可逆电池, ν=转移电子数</span>　$\color{#1565C0}{\Delta_rG=-\nu FE,\ \Delta_rG^\ominus=-\nu FE^\ominus}$（F=96485 C/mol）
+
+**Nernst 方程**　$\color{#1565C0}{E=E^\ominus-\dfrac{RT}{\nu F}\ln Q}$　<span style="color:#C00000">25 °C</span>　$\color{#1565C0}{E=E^\ominus-\dfrac{0.0592}{\nu}\lg Q\ \text{V}}$（$RT/F$=25.7 mV）
+
+**K 与 E°**　<span style="color:#C00000">平衡 E=0, Q=K</span>　$\color{#1565C0}{\ln K=\dfrac{\nu FE^\ominus}{RT}}$
+
+**电池电动势组合**　$\color{#1565C0}{E^\ominus=E^\ominus(右/阴极)-E^\ominus(左/阳极)}$（均取还原电势；E°与配平倍数无关）
+
+**温度系数求热力学量**　$\color{#1565C0}{\Delta_rS^\ominus=\nu F\dfrac{\mathrm{d}E^\ominus}{\mathrm{d}T}}$；$\color{#1565C0}{\Delta_rH^\ominus=-\nu FE^\ominus+\nu FT\dfrac{\mathrm{d}E^\ominus}{\mathrm{d}T}}$
+
+---
+
+## 常数（Constants）
+$\color{#1565C0}{R=8.314\ \text{J K}^{-1}\text{mol}^{-1}=0.08206\ \text{L atm K}^{-1}\text{mol}^{-1}}$；$\color{#1565C0}{F=96485\ \text{C/mol}}$；$\color{#1565C0}{N_A=6.022\times10^{23}}$
+$\color{#1565C0}{1\text{ atm}=101325\text{ Pa}=760\text{ Torr}=1.01325\text{ bar}}$；$\color{#1565C0}{p^\ominus=1\text{ bar}=10^5\text{ Pa}}$；$\color{#1565C0}{0\,°\text{C}=273.15\text{ K}}$
+$\color{#1565C0}{RT(298\text{K})=2.479\text{ kJ/mol}}$；$\color{#1565C0}{RT/F=25.7\text{ mV}}$；$\color{#1565C0}{A_{DH}=0.509}$

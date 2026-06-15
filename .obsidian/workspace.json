@@ -35,7 +35,8 @@
               "title": "物理化学复习笔记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,12 +212,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8135a178026d17c2",
+  "active": "c8fda8908f5feb7b",
   "lastOpenFiles": [
+    "Research/挑战杯/CH4 inverse/甲烷通量监测反演_调研报告.md",
     "Research/挑战杯/低空安全区/低空气象实时安全飞行区地图专题调研.md",
     "01_Courses notes/012_Major courses/Solid waste and resourcing/固废资源化_作业答案.md",
     "01_Courses notes/012_Major courses/物理化学基础/物理化学公式速查表.md",
-    "Research/挑战杯/CH4 inverse/甲烷通量监测反演_调研报告.md",
     "Research/挑战杯/CH4 inverse/甲烷通量监测反演_调研报告.md.crdownload",
     "Research/挑战杯/CH4 inverse",
     "Research/挑战杯/新建文件夹",
